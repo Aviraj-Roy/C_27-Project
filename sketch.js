@@ -76,6 +76,6 @@ function keyPressed()
 {
  if (keyCode === UP_ARROW) 
  {
-    Body.applyForce(bob1,bob1.position,{x:10,y:-9});
+    Body.applyForce(bob1.body,bob1.body.position,{x:10,y:-9});
  }
 }
